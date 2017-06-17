@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Noto+Sans');
+
+h1, h2, h3 {
+    font-family: 'Droid Serif', serif;
+    color: #505DFF;
+}
+
+p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: #E8572B;
+}
+
+body {
+    /*background: url('..*/
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #D1DFE8;
+    text-align: center;
+    padding: 15px 30px 15px 30px; 
+}
+
+.main content {
+    background-color: #D1D2E8;
+    padding: 10px 0;
+    border-top: 2px solid #D2B721;
+}
+
+header img {
+    width: 50%;
+    border-radius: 55px; 
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content ul li {
+    padding: 10px;
+    display: inline;
+}
+
+a {
+    color: #CFD11a;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-content p {
+    margin: 10px 40px;
+}
+
+.main-content ul li {
+    text-align: center;
+}
+
+#projects {
+    background-color: #595959;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.project {
+    width: 30%;
+    display: inline-block;
+    background-color: #f2e9dc;
+    margin: 1.66%;
+    border-radius: 15px;
+    float: left;
+}
+
+.project img {
+    max-width: 100%;
+}
